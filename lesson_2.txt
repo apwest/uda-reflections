@@ -14,3 +14,8 @@ What are some situations when branches would be helpful in keeping your history 
 
     They allow you to see what commits branches stem from and what commits are reachable from a branch
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    Merging two branches will combine all the changes from both branches into a new commit with the label of the active branch.
+
+
