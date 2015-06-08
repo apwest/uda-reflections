@@ -10,3 +10,7 @@ What are some situations when branches would be helpful in keeping your history 
 
     Multiple people working on the same project; Working on multiple, unrelated features; Branches allow work to be done independently of eachother
 
+ How do the diagrams help you visualize the branch structure?
+
+    They allow you to see what commits branches stem from and what commits are reachable from a branch
+
