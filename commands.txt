@@ -1,0 +1,46 @@
+[repository]
+# Initialize a new repo (create the .git folder for repo metadata)
+git init
+
+# Get status of current changes
+get status
+
+# Get list of commits (from perspective of active commit)
+git log
+git log --stat
+
+
+[compare]
+# Show changes across two commits
+git diff commit-id-older commit-id-newer
+
+# Show changes between commit and its parent
+git diff commit-id
+
+
+[commits]
+# Add file to staging area for commit
+git add file-name
+
+git commit
+
+[branches]
+# List branches in repo
+git branch
+
+# Create a new branch (without switching to it)
+git branch new-branch-name
+
+# Create a new branch and switch to it
+git checkout new-branch-name
+
+
+[merging]
+# Merge two branches
+git merge branchA branchB
+
+# Or if branchA is active
+git merge branchB
+
+# You can merge more than two branches
+git merge branchA branchB branchC
