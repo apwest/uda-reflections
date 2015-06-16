@@ -8,6 +8,7 @@ get status
 # Get list of commits (from perspective of active commit)
 git log
 git log --stat
+git log --graph
 
 
 [compare]
@@ -44,3 +45,15 @@ git merge branchB
 
 # You can merge more than two branches
 git merge branchA branchB branchC
+
+[remotes]
+git remote
+git remote -v
+git remote add remote-name git-repo-url
+git push remote-name branch-name
+git pull remote-name branch-name
+
+# pull down latest changes from remote without overwriting (or merging) with local
+git fetch remote-name
+
+git pull origin master = git fetch origin; git merger master origin/master
