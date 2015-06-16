@@ -21,3 +21,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     I've used other tools such as CVS and SVN for collaborating, but these didn't have a public/web aspect to it. 
     So git allows for a broader community in that sense. If you're project is popular and lots of people are trying 
     to make changes to it, that could make it difficult to maintain all the change requests.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    It's a good idea to use a separate branch when working on new ideas that could break the build, or when working on a project with others.
+    This allows for your work to be done independently without screwing up the master branch; you can merge (or create a pull request) when
+    it's ready for prime-time.
